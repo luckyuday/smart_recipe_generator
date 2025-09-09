@@ -1,7 +1,7 @@
 # Smart Recipe Generator
 
 ## Project Overview
-The Smart Recipe Generator is a full-stack web application designed to help users find recipes based on the ingredients they have available. This project was developed as a technical assessment for a Software Engineering position at [Company Name].
+The Smart Recipe Generator is a full-stack web application designed to help users find recipes based on the ingredients they have available.
 
 The application features:
 * **Dynamic Recipe Search:** Users can search for recipes by typing in a list of ingredients.
@@ -11,7 +11,7 @@ The application features:
 * **Responsive Design:** The interface is built to be clean, intuitive, and fully responsive on all devices.
 
 ## Technology Stack
-The application is built using a modern MERN (MongoDB, Express, React, Node.js) stack, leveraging my previous experience building projects like the "Moody Player."
+The application is built using a modern MERN (MongoDB, Express, React, Node.js) stack.
 
 * **Frontend:** **React** with **Vite** and **Axios** for a fast and efficient user interface.
 * **Backend:** **Express.js** to create a RESTful API for handling data requests.
