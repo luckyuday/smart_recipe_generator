@@ -12,7 +12,7 @@ const RecipeDetail = () => {
     const fetchRecipe = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/recipes/${id}` // <-- Corrected port
+          `https://smart-recipe-generator-j3z0.onrender.com/api/recipes/${id}` // <-- Corrected port
         );
         setRecipe(response.data);
       } catch (error) {
@@ -29,9 +29,12 @@ const RecipeDetail = () => {
 
   const handleRating = async (rating) => {
     try {
-      await axios.post(`http://localhost:3000/api/recipes/${id}/rate`, {
-        rating,
-      }); // <-- Corrected port
+      await axios.post(
+        `https://smart-recipe-generator-j3z0.onrender.com/api/recipes/${id}/rate`,
+        {
+          rating,
+        }
+      ); // <-- Corrected port
       alert("Thank you for your feedback!");
     } catch (err) {
       console.error("Rating submission failed:", err);

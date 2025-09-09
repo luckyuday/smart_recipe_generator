@@ -1,5 +1,3 @@
-// src/App.jsx (updated for client-side pagination)
-
 import { useState } from "react";
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -25,7 +23,7 @@ function App() {
     try {
       const params = new URLSearchParams(query).toString();
       const response = await axios.get(
-        `http://localhost:3000/api/recipes?${params}`
+        `https://smart-recipe-generator-j3z0.onrender.com/api/recipes?${params}`
       );
 
       setAllRecipes(response.data);
@@ -66,7 +64,7 @@ function App() {
                   {error && <p className="error-message">{error}</p>}
                   {!loading && !error && allRecipes.length > 0 && (
                     <RecipeList
-                      recipes={currentRecipes} // <-- Pass only the current page's recipes
+                      recipes={currentRecipes}
                       currentPage={currentPage}
                       totalPages={totalPages}
                       onPageChange={handlePageChange}

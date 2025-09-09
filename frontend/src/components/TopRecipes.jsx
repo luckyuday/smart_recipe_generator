@@ -11,7 +11,7 @@ const TopRecipes = () => {
     const fetchTopRecipes = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3000/api/recipes/top-rated"
+          "https://smart-recipe-generator-j3z0.onrender.com/api/recipes/top-rated"
         );
         setRecipes(response.data);
       } catch (err) {
