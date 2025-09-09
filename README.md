@@ -58,6 +58,6 @@ To set up and run this project on your local machine, follow these steps.
     The frontend will run on `http://localhost:5173`.
 
 ## Deliverables
-* **Working Application URL:** [Insert your deployed app's URL here]
-* **GitHub Repository:** [Link to this repository]
+* **Working Application URL:** (https://smart-recipe-generator-1-z5u4.onrender.com)
+* **GitHub Repository:** [https://github.com/luckyuday/smart_recipe_generator/]
 * **Brief Write-up:** A short document detailing the technical approach and problem-solving logic is also included in this repository.
